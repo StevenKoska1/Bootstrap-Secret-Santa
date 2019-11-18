@@ -1,0 +1,47 @@
+:root{
+    --santa-red: #8C1D27;
+    --santa-red-alfa: rgba(140, 29, 38, 0.514);
+    --santa-green: #06A294;
+    
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#title{
+    
+    font-family: 'Calistoga', cursive;
+    padding: 3% 15%;
+    background-color: var(--santa-red);
+    color: white;
+}
+
+.h1{
+    font-family: 'Calistoga', cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    width: auto;
+}
+
+.navbar-brand{
+    font-family: 'Calistoga';
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+}
