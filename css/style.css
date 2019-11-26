@@ -133,7 +133,7 @@
      font-family: 'Calistoga';
  }
 
-.btn{
+.btn-pricing{
     border: solid 3px var(--santa-red);
     background-color: var(--santa-red);
     color: #FFF;
@@ -142,4 +142,31 @@
 .pricing-column{
     padding: 3% 2%;
 
+}
+
+#cta{
+    font-family: 'Calistoga';
+    text-align: center;
+    margin: 0 auto;
+    padding: 7% 15%;
+    background-color: var(--santa-red);
+    color: #FFF;
+    font-size: 20%;
+}
+
+#cta h3{
+    font-family: 'Calistoga';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+#footer{
+    text-align: center;
+    padding-top: 10%;
+}
+
+#footer .p{
+    font-family: 'Calistoga';
 }
